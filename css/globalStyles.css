@@ -43,6 +43,11 @@ body {
     margin-bottom: 5px;
 }
 
-.copy {
-
+#copy {
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    padding: 5px;
+    margin: 10px auto 0;
+    width: 600px;
 }
