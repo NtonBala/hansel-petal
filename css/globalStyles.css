@@ -1,0 +1,17 @@
+html {
+    background: #fff url('../images/site/html.jpg') repeat;
+}
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+}
+.site {
+    background-color: #fff;
+    border: 1px solid red;
+    width: 960px;
+    min-height: 630px;
+    margin: 20px auto 0;
+}
+.logo {
+    padding: 5px;
+}
