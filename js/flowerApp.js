@@ -30,4 +30,5 @@ var flowerGroup = new app.FlowersCollection([
 flowerGroup.add(heirloomRoses);
 flowerGroup.remove(flowerToRemove);
 
-
+var flowerGroupView = new app.allFlowersView({collection: flowerGroup});
+$('#allFlowers').html(flowerGroupView.render().el);

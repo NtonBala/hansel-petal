@@ -10,13 +10,13 @@
         <div class="logo">
             <img src="images/site/logo.png" alt="Hansel&Petal" width="207" height="124">
         </div>
-        <div></div>
-        <div></div>
+        <div id="allFlowers"></div>
+        <div id="copy"></div>
     </div>
 
     <script id="flowerElement" type="text/template">
         <a href="#<%= link %>"><img src="<%= img %>" alt="<%= name %>" class="image"></a>
-        <ul>
+        <ul class="flowersUl">
             <li class="flowerInfo"><strong>Name: </strong><%= name %></li>
             <li class="flowerInfo"><strong>Price: </strong><%= price %></li>
             <li class="flowerInfo"><strong>Color: </strong><%= color %></li>
@@ -30,6 +30,7 @@
     <script src="js/models/singleFlowerModel.js"></script>
     <script src="js/collections/allFlowers.js"></script>
     <script src="js/views/singleFlowerView.js"></script>
+    <script src="js/views/allFlowersView.js"></script>
 
     <script src="js/flowerApp.js"></script>
 </body>
